@@ -191,9 +191,11 @@ form input {
 }
 
 .slider-disc {
+    display: inline-block;
     position: relative;
     left: 193px;
     top: 150px;
+    height: 12px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -204,8 +206,7 @@ form input {
     text-transform: uppercase;
     color: #000000;
     cursor: pointer;
-    width: 100%;
-    height: 12px;
+    width: 210px;
 }
 
 .slider-disc:hover {
@@ -549,9 +550,11 @@ form input {
 }
 
 .footer-area {
-    position: relative;
+    /* position: relative;
     bottom: 220px;
-    left: 64px;
+    left: 64px; */
+    margin-top: -230px;
+    margin-left: 64px;
 }
 
 .footer-poster img {
@@ -654,6 +657,9 @@ footer .footer-right a {
         left: 408px;
         top: 68px;
     }
+    .footer-area {
+        margin-top: -200px;
+    }
 }
 
 @media screen and (max-width:991px) {
@@ -709,7 +715,7 @@ footer .footer-right a {
         margin-bottom: 0px;
     }
     .footer-area {
-        bottom: 160px;
+        margin-top: -170px;
     }
     .footer-poster .footer-title {
         font-size: 30px;
@@ -745,8 +751,8 @@ footer .footer-right a {
         margin: 1040px auto 50px auto;
     }
     .footer-area {
-        bottom: 110px;
-        left: 24px;
+        margin-top: -120px;
+        margin-left: 24px;
     }
     .footer-poster .footer-title {
         font-size: 20px;
@@ -793,7 +799,7 @@ footer .footer-right a {
         margin-left: 0px;
         padding-left: 0px;
     }
-    .slider-discount .title-big{
+    .slider-discount .title-big {
         font-size: 45px;
     }
     .footer-poster .footer-title {
@@ -802,6 +808,9 @@ footer .footer-right a {
     }
     .footer-poster .footer-text {
         display: none;
+    }
+    .footer-area {
+        margin-top: -130px;
     }
 }
 
@@ -812,20 +821,18 @@ footer .footer-right a {
     .small-slider .slider-discount {
         margin: 0 auto;
         width: 100%;
-        margin-left: 0px;
-        padding-left: 0px;
+        margin-left: -30px;
     }
-    .slider-discount .title-big{
+    .slider-discount .title-big {
         font-size: 45px;
     }
-    .slider-discount .slider-disc{
-        margin-left: -40px;
+    .slider-discount .slider-disc {
+        margin-left: -70px;
     }
     .small-slider .slider-img {
-        width: 40%;
-        margin-top: 50px;
-        background-size: 70%;
-        margin-left: 8%;
+        left: 0px;
+        background-size: 90%;
+        margin-top: 20px;
     }
     .card1 .brand-big-card {
         top: 70px;
@@ -848,7 +855,7 @@ footer .footer-right a {
     .footer-poster {
         height: 180px;
     }
-    .footer-poster .footer-title{
+    .footer-poster .footer-title {
         padding-top: 0px;
     }
     .footer-poster .footer-disc {
@@ -861,5 +868,17 @@ footer .footer-right a {
     .footer-bottom {
         height: 80px;
         text-align: center;
+    }
+}
+@media screen and (max-width:375px) {
+    .small-slider .slider-img {
+        background-size: 70%;
+        margin-top: 50px;
+    }
+    .footer-poster .footer-title{
+        margin-top: 30px;
+    }
+    .footer-area {
+        margin-top: -110px;
     }
 }
