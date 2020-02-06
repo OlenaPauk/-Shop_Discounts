@@ -787,6 +787,15 @@ footer .footer-right a {
     .posters {
         margin: 0 30px;
     }
+    .small-slider .slider-discount {
+        margin: 0 auto;
+        width: 100%;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .slider-discount .title-big{
+        font-size: 45px;
+    }
     .footer-poster .footer-title {
         margin-top: 20px;
         margin-bottom: 20px;
