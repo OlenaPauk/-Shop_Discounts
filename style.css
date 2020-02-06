@@ -806,6 +806,12 @@ footer .footer-right a {
         margin-left: -50px;
         padding-left: 0px;
     }
+    .slider-discount .title-big{
+        font-size: 45px;
+    }
+    .slider-discount .slider-disc{
+        margin-left: -40px;
+    }
     .small-slider .slider-img {
         width: 40%;
         margin-top: 50px;
