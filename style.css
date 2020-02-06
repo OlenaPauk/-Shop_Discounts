@@ -803,7 +803,7 @@ footer .footer-right a {
     .small-slider .slider-discount {
         margin: 0 auto;
         width: 100%;
-        margin-left: -50px;
+        margin-left: 0px;
         padding-left: 0px;
     }
     .slider-discount .title-big{
@@ -816,7 +816,7 @@ footer .footer-right a {
         width: 40%;
         margin-top: 50px;
         background-size: 70%;
-        margin-left: 2%;
+        margin-left: 8%;
     }
     .card1 .brand-big-card {
         top: 70px;
