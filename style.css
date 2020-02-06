@@ -688,6 +688,12 @@ footer .footer-right a {
     .small-slider {
         display: block;
     }
+    .previous-slide {
+        right: 0px;
+    }
+    .next-slide {
+        left: 0px;
+    }
     .small-slider .slider-discount {
         margin: 0 auto;
         width: 100%;
@@ -868,6 +874,11 @@ footer .footer-right a {
     .footer-bottom {
         height: 80px;
         text-align: center;
+    }
+}
+@media screen and (max-width:460px) {
+    .footer-area {
+        margin-top: -105px;
     }
 }
 @media screen and (max-width:375px) {
