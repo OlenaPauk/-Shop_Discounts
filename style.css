@@ -833,6 +833,9 @@ footer .footer-right a {
     .footer-poster {
         height: 180px;
     }
+    .footer-poster .footer-title{
+        padding-top: 7px;
+    }
     .footer-poster .footer-disc {
         font-size: 15x;
     }
